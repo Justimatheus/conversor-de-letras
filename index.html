@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Conversor de textos</title>
+</head>
+
+
+<body>
+    <h1 class="conversor">Conversor de Textos</h1>
+    
+    <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+
+    <div class="res"></div>
+   
+    <div class="area">
+        <input class="maiusculo" type="button" value="MAIÚSCULO" onclick="maiusculo()">
+        <input class="minusculo" type="button" value="minúsculo" onclick="minusculo()">
+    </div><!--area-->
+
+    <script>
+
+        function maiusculo(){
+             var text = document.getElementById('texto').value;
+             console.log(text);
+             document.getElementById('texto').value = text.toUpperCase();
+        }
+
+        function minusculo(){
+             var text = document.getElementById('texto').value;
+             console.log(text);
+             document.getElementById('texto').value = text.toLowerCase();
+        }
+
+    </script>
+    
+</body>
+</html>

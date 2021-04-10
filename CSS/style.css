@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.conversor{
+    text-align: center;
+    padding: 30px 0;
+    font: normal 30pt arial ;
+    color: black;
+}
+
+
+#texto{
+    width: 998px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  5px;
+}
+
+.area{
+    width: 998px;
+    height: 100px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maiusculo{
+    width: 150px;
+    height: 40px;
+    margin: 0px 0px 10px;
+    padding: 10px 20px;
+    background-color: #356D7E;
+    color: white;
+    font: normal 12pt arial ;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 500px;
+}
+
+.minusculo{
+    width: 150px;
+    height: 40px;
+    margin: -50px 10px;
+    padding: 10px 20px;
+    background-color: #356D7E;
+    color: white;
+    font: normal 12pt arial ;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: 300px;
+}
